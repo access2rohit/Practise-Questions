@@ -1,9 +1,9 @@
-public class Solution {
+public class Interleave {
 
 	public static void main(String args[]){
 		isInterleave(args[0], args[1], args[2]);
 	}
-	public int isInterleave(String a, String b, String c) {
+	public static int isInterleave(String a, String b, String c) {
 	    char[] s1 = a.toCharArray();
 	    char[] s2 = b.toCharArray();
 	    char[] s3 = c.toCharArray();
