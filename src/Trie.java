@@ -18,7 +18,7 @@ public class Trie {
         }
     }
     public static void main(String[] args) {
-        Trie s = new Triessss();
+        Trie s = new Trie();
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         Node trie = s.new Node();
