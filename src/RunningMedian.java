@@ -18,7 +18,6 @@ public class RunningMedian {
         });
         
         if(n > 0){
-            //minHeap.add(in.nextInt());
             int min=0, max=0;
             for(int i=0; i < n; i++){
                 int num = in.nextInt();
@@ -38,7 +37,6 @@ public class RunningMedian {
                 
                 max = maxHeap.size(); 
                 min = minHeap.size();
-                //System.out.println("max=" + max);
                 double median = 0d;
                 if(max == min) {
                     median = ((double)maxHeap.peek() + minHeap.peek())/2;
