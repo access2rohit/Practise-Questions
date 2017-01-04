@@ -12,9 +12,7 @@ public class ConnectedGridCells {
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
                 if(matrix[i][j] == 1){
-                    int t = getRegion(matrix, i ,j);
-                    if(max < t)
-                        max = t;
+                    max = Math.max(max, getRegion(matrix, i ,j));
                 }
             }
         }
